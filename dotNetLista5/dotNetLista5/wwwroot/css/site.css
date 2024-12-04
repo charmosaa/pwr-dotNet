@@ -1,0 +1,77 @@
+table, th {
+    border-color: hsl(106, 82%, 15%);
+    border-style: solid;
+}
+
+table {
+    padding: 8px;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(106, 82%, 15%);
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(215, 215, 207);
+}
+
+tr:first-child {
+    background-color: aquamarine;
+}
+
+tr td:first-child {
+    background-color: aquamarine;
+}
+
+
+.even {
+    background-color: #3463bc;
+}
+
+.odd {
+    background-color: hsl(60, 70%, 59%);
+}
+
+.threeZero {
+    background-color: hwb(119 30% 12%);
+}
+
+.threeOne {
+    background-color: hsl(60, 70%, 59%);
+}
+
+.threeTwo {
+    background-color: hsl(219, 57%, 47%);
+}
+
+
+
+.canvas {
+    border: 2px solid hsl(102, 93%, 12%);
+    margin: 10px;
+    background-color: hsl(60, 70%, 59%);
+}
+
+#canvas1 {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    float: left;
+}
+
+#canvas2 {
+    height: 600px;
+    width: 400px;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+}
+
+#canvas3 {
+    height: 800px;
+    width: 800px;
+    position: absolute;
+}

@@ -1,0 +1,20 @@
+﻿@{
+	ViewBag.Title = "All Data Probe"; // you can create new fields
+	ViewData["probe"] = "new dictionary element";
+	// or dictionary elements (it's the same)
+}
+<h2>@ViewBag.Title.</h2>
+<h5>@ViewBag.Message.</h5>
+<br />
+Probe: @ViewBag.proba.
+<br />
+My Data:
+<br />
+<b> Name: @ViewData["name"]</b>
+<br />
+<b> Age: @ViewBag.age</b>
+<br />
+<b> Error: @TempData["error"]</b>
+<p> RandomNumber = @ViewBag.random</p>
+<p> TempData["random"] = @TempData["random"]</p>
+<br />

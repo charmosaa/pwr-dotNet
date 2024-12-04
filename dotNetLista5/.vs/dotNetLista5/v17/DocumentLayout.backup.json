@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|c:\\users\\marty\\source\\repos\\dotnetlista5\\dotnetlista5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|solutionrelative:dotnetlista5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|c:\\users\\marty\\source\\repos\\dotnetlista5\\dotnetlista5\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|solutionrelative:dotnetlista5\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|c:\\users\\marty\\source\\repos\\dotnetlista5\\dotnetlista5\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F2F9C8A3-3420-4673-B63E-84726D735A6B}|dotNetLista5\\dotNetLista5.csproj|solutionrelative:dotnetlista5\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "dotNetLista5\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "dotNetLista5\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T08:29:34.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "dotNetLista5\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "dotNetLista5\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-13T08:19:32.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "dotNetLista5\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\dotNetLista5\\dotNetLista5\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "dotNetLista5\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-13T08:19:28.266Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

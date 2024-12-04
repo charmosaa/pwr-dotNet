@@ -1,0 +1,14 @@
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\bin\Debug\net8.0\lab7dotNet.exe
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\bin\Debug\net8.0\lab7dotNet.deps.json
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\bin\Debug\net8.0\lab7dotNet.runtimeconfig.json
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\bin\Debug\net8.0\lab7dotNet.dll
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\bin\Debug\net8.0\lab7dotNet.pdb
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.AssemblyInfoInputs.cache
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.AssemblyInfo.cs
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.csproj.CoreCompileInputs.cache
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.dll
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\refint\lab7dotNet.dll
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.pdb
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\lab7dotNet.genruntimeconfig.cache
+C:\Users\marty\source\repos\lab7dotNet\lab7dotNet\obj\Debug\net8.0\ref\lab7dotNet.dll

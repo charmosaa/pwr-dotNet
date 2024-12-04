@@ -1,0 +1,92 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 16px; 
+}
+
+
+.identity {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.no-solution {
+    color: red;
+    font-style: oblique;
+}
+
+.one-solution {
+    color: blue;
+    font-weight: bold;
+}
+
+.two-solutions {
+    color: purple;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.no-equation {
+    color: orange;
+    font-style: normal;
+}
+
+.success{
+    color: green;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.error {
+    color: darkred;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.newRandom {
+    color: purple;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.guess {
+    color: darkslateblue;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.correctGuess {
+    background-color: gold;
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.counter {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}

@@ -1,0 +1,29 @@
+﻿@{
+    string cssClass = ViewData["CssClass"] as string;
+    string message = ViewData["Message"] as string;
+    string message2 = ViewData["Message2"] as string;
+    string restart = ViewData["Restart"] as string;
+    string counter = ViewData["Counter"] as string;
+}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number GAME</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="counter">
+        <p>@counter</p>
+    </div>
+    <div class="@cssClass">
+        <p>@message</p>
+        <p>@message2</p>
+    </div>
+    <div class="newRandom">
+        <p>@restart</p>
+    </div>
+</body>
+</html>

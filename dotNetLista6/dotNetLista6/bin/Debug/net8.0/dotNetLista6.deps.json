@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "dotNetLista6/1.0.0": {
+        "runtime": {
+          "dotNetLista6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotNetLista6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

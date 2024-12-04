@@ -1,0 +1,24 @@
+﻿@{
+	ViewBag.Title = "Data Probe - ViewBag";
+}
+<h2>@ViewBag.Title.</h2>
+<h5>@ViewBag.Message.</h5>
+My data:
+<br />
+<b> Name: @ViewData["name"]</b>
+<br />
+<b> Age: @ViewData["age"]</b>
+<br />
+Selected colors:
+<ul id="colors">
+	@foreach (var color in ViewData["listColors"] as List<string>)
+	{
+		<li>
+			<font color="@color"> @color</font>
+		</li>
+	}
+</ul>
+<p>
+	@ViewData["dateNow"]
+</p>
+<p>In engine Razor language (CSHTML)</p>

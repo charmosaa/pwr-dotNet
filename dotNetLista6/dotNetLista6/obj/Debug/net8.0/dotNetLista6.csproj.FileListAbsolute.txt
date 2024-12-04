@@ -1,0 +1,14 @@
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\bin\Debug\net8.0\dotNetLista6.exe
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\bin\Debug\net8.0\dotNetLista6.deps.json
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\bin\Debug\net8.0\dotNetLista6.runtimeconfig.json
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\bin\Debug\net8.0\dotNetLista6.dll
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\bin\Debug\net8.0\dotNetLista6.pdb
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.AssemblyInfoInputs.cache
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.AssemblyInfo.cs
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.csproj.CoreCompileInputs.cache
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.dll
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\refint\dotNetLista6.dll
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.pdb
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\dotNetLista6.genruntimeconfig.cache
+C:\Users\marty\source\repos\dotNetLista6\dotNetLista6\obj\Debug\net8.0\ref\dotNetLista6.dll
