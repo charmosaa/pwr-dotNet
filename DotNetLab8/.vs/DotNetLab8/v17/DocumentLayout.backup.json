@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\controllers\\toolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +23,8 @@
       "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\views\\tool\\solve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\views\\game\\game.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|solutionrelative:dotnetlab8\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{440243D7-20D0-4B69-8F15-8B98852EFED4}|DotNetLab8\\DotNetLab8.csproj|c:\\users\\marty\\source\\repos\\dotnetlab8\\dotnetlab8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,13 +42,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "DotNetLab8\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\wwwroot\\css\\site.css",
               "RelativeToolTip": "DotNetLab8\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAF4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-29T08:59:38.06Z",
               "IsPinned": true,
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Game.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Views\\Game\\Game.cshtml",
               "RelativeDocumentMoniker": "DotNetLab8\\Views\\Game\\Game.cshtml",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Views\\Game\\Game.cshtml",
               "RelativeToolTip": "DotNetLab8\\Views\\Game\\Game.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T10:09:26.364Z",
               "EditorCaption": ""
@@ -79,27 +79,27 @@
               "RelativeDocumentMoniker": "DotNetLab8\\Controllers\\GameController.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Controllers\\GameController.cs",
               "RelativeToolTip": "DotNetLab8\\Controllers\\GameController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T09:52:55.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ToolController.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Controllers\\ToolController.cs",
               "RelativeDocumentMoniker": "DotNetLab8\\Controllers\\ToolController.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Controllers\\ToolController.cs",
               "RelativeToolTip": "DotNetLab8\\Controllers\\ToolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T08:39:22.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Solve.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Views\\Tool\\Solve.cshtml",
               "RelativeDocumentMoniker": "DotNetLab8\\Views\\Tool\\Solve.cshtml",
@@ -112,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab8\\DotNetLab8\\Program.cs",
               "RelativeDocumentMoniker": "DotNetLab8\\Program.cs",
@@ -120,7 +120,8 @@
               "RelativeToolTip": "DotNetLab8\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAADIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:43:16.687Z"
+              "WhenOpened": "2024-11-29T07:43:16.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -4,6 +4,7 @@
     string message2 = ViewData["Message2"] as string;
     string restart = ViewData["Restart"] as string;
     string counter = ViewData["Counter"] as string;
+    string previousGuesses = ViewData["PreviousGuesses"] as string;
 }
 
 <!DOCTYPE html>
@@ -24,6 +25,9 @@
     </div>
     <div class="newRandom">
         <p>@restart</p>
+    </div>
+    <div class="previous">
+        <p>@previousGuesses</p>
     </div>
 </body>
 </html>
