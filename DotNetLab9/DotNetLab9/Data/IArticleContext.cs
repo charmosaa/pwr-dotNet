@@ -4,7 +4,7 @@ namespace DotNetLab9.Data
 {
     public interface IArticleContext
     {
-        List<Article> GetArticles();
+        ICollection<Article> GetArticles();
         Article? GetArticle(int id);
         void AddArticle(Article person);
         void RemoveArticle(int id);

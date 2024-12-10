@@ -21,7 +21,7 @@ namespace DotNetLab9.Data
             return articles.FirstOrDefault(a => a.Id == id);
         }
 
-        public List<Article> GetArticles()
+        public ICollection<Article> GetArticles()
         {
             return articles;
         }
