@@ -6,8 +6,8 @@ namespace DotNetLab9.Data
     {
         List<Article> articles = new List<Article>()
         {
-            new Article(0,"banan", 1.50f, DateTime.Now,FoodType.Fruit),
-            new Article(1,"ser", 2.59f, DateTime.Now,FoodType.Diary)
+            new Article(1,"banana", 1.5m, DateTime.Now,FoodType.Fruit),
+            new Article(2,"cheese", 2.79m, DateTime.Now,FoodType.Dairy)
         };
         public void AddArticle(Article article)
         {

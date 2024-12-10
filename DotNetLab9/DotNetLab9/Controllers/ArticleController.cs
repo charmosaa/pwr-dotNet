@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System.Globalization;
+using System.Linq.Expressions;
 using DotNetLab9.Data;
 using DotNetLab9.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
@@ -35,6 +36,19 @@ namespace DotNetLab9.Controllers
             {
                 if (ModelState.IsValid)
                     ArticleContext.AddArticle(article);
+                else
+                {
+                    if (!ModelState.IsValid)
+                    {
+                        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            // Logowanie lub wyświetlanie błędów
+                            Console.WriteLine(error.ErrorMessage);
+                        }
+                        return View(article);
+                    }
+
+                }
                 return RedirectToAction(nameof(Index));
             }
             
@@ -69,6 +83,16 @@ namespace DotNetLab9.Controllers
                     article.Id = id; // added
                     ArticleContext.UpdateArticle(article); //added
                 }
+                else
+                {
+                    foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        // Logowanie lub wyświetlanie błędów
+                        Console.WriteLine(error.ErrorMessage);
+                    }
+                    return View(article);
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             catch
