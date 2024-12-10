@@ -11,7 +11,9 @@ namespace DotNetLab9.Data
         };
         public void AddArticle(Article article)
         {
-            int nextNumber = articles.Max(a => a.Id) + 1;
+            int nextNumber = 1;
+            if(articles.Any())
+                nextNumber = articles.Max(a => a.Id) + 1;
             article.Id = nextNumber;
             articles.Add(article);
         }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\data\\mockarticlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\data\\mockarticlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\data\\dictionarymockarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\data\\dictionarymockarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\data\\iarticlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\data\\mockarticlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\data\\mockarticlecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|c:\\users\\marty\\source\\repos\\dotnetlab9\\dotnetlab9\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{439307CC-CAB5-4324-8538-0BF2E6A02797}|DotNetLab9\\DotNetLab9.csproj|solutionrelative:dotnetlab9\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Models\\ViewModels\\Article.cs",
               "RelativeDocumentMoniker": "DotNetLab9\\Models\\ViewModels\\Article.cs",
@@ -83,8 +83,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T10:23:36.974Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -92,33 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ArticleController.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Controllers\\ArticleController.cs",
-              "RelativeDocumentMoniker": "DotNetLab9\\Controllers\\ArticleController.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Controllers\\ArticleController.cs",
-              "RelativeToolTip": "DotNetLab9\\Controllers\\ArticleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:58:12.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Program.cs",
               "RelativeDocumentMoniker": "DotNetLab9\\Program.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Program.cs",
               "RelativeToolTip": "DotNetLab9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T10:56:29.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Article\\Delete.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Article\\Delete.cshtml",
@@ -126,12 +112,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Article\\Delete.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:20:35.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:20:35.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Article\\Details.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Article\\Details.cshtml",
@@ -139,12 +124,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Article\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:17:42.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:17:42.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Article\\Edit.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Article\\Edit.cshtml",
@@ -152,12 +136,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Article\\Edit.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:19:59.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:19:59.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Shared\\_Layout.cshtml",
@@ -165,12 +148,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAYwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:24:29.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:24:29.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DictionaryMockArticle.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\DictionaryMockArticle.cs",
               "RelativeDocumentMoniker": "DotNetLab9\\Data\\DictionaryMockArticle.cs",
@@ -183,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "DotNetLab9\\wwwroot\\css\\site.css",
@@ -191,12 +173,36 @@
               "RelativeToolTip": "DotNetLab9\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-10T12:46:27.624Z",
+              "WhenOpened": "2024-12-10T12:46:27.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MockArticleContext.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\MockArticleContext.cs",
+              "RelativeDocumentMoniker": "DotNetLab9\\Data\\MockArticleContext.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\MockArticleContext.cs",
+              "RelativeToolTip": "DotNetLab9\\Data\\MockArticleContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:41:57.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "DotNetLab9\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Controllers\\ArticleController.cs",
+              "RelativeToolTip": "DotNetLab9\\Controllers\\ArticleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:58:12.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Article\\Create.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Article\\Create.cshtml",
@@ -204,12 +210,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Article\\Create.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:19:17.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:19:17.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Views\\Article\\Index.cshtml",
               "RelativeDocumentMoniker": "DotNetLab9\\Views\\Article\\Index.cshtml",
@@ -217,12 +222,11 @@
               "RelativeToolTip": "DotNetLab9\\Views\\Article\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T12:18:39.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T12:18:39.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IArticleContext.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\IArticleContext.cs",
               "RelativeDocumentMoniker": "DotNetLab9\\Data\\IArticleContext.cs",
@@ -230,21 +234,7 @@
               "RelativeToolTip": "DotNetLab9\\Data\\IArticleContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T18:41:32.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MockArticleContext.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\MockArticleContext.cs",
-              "RelativeDocumentMoniker": "DotNetLab9\\Data\\MockArticleContext.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab9\\DotNetLab9\\Data\\MockArticleContext.cs",
-              "RelativeToolTip": "DotNetLab9\\Data\\MockArticleContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T10:41:57.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T18:41:32.851Z"
             },
             {
               "$type": "Document",
