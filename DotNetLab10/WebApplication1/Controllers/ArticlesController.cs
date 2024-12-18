@@ -122,65 +122,37 @@ namespace WebApplication1.Controllers
             {
                 try
                 {
-                    // Obsługa przesyłania lokalnego pliku
+                    var existingArticle = await _context.Articles.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
+                    if (existingArticle == null)
+                    {
+                        return NotFound();
+                    }
+
                     if (imageFile != null && imageFile.Length > 0)
                     {
-                        var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/upload");
-                        if (!Directory.Exists(uploadPath))
+                        string uploadsFolder = Path.Combine(_hostingEnvironment.WebRootPath, "upload");
+                        string uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(imageFile.FileName);
+                        string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
                         {
-                            Directory.CreateDirectory(uploadPath);
+                            await imageFile.CopyToAsync(fileStream);
                         }
 
-                        var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-                        var filePath = Path.Combine(uploadPath, fileName);
-
-                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        if (!string.IsNullOrEmpty(existingArticle.ImagePath) && !existingArticle.ImagePath.StartsWith("http"))
                         {
-                            await imageFile.CopyToAsync(stream);
-                        }
-
-                        article.ImagePath = "/upload/" + fileName;
-                    }
-                    // Obsługa zewnętrznego URL-a
-                    else if (!string.IsNullOrEmpty(article.ImagePath) && Uri.IsWellFormedUriString(article.ImagePath, UriKind.Absolute))
-                    {
-                        try
-                        {
-                            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/upload");
-                            if (!Directory.Exists(uploadPath))
+                            string oldFilePath = Path.Combine(_hostingEnvironment.WebRootPath, existingArticle.ImagePath.TrimStart('/'));
+                            if (System.IO.File.Exists(oldFilePath))
                             {
-                                Directory.CreateDirectory(uploadPath);
-                            }
-
-                            using (var httpClient = new HttpClient())
-                            {
-                                var response = await httpClient.GetAsync(article.ImagePath);
-                                if (response.IsSuccessStatusCode)
-                                {
-                                    var fileExtension = Path.GetExtension(article.ImagePath);
-                                    var fileName = Guid.NewGuid().ToString() + fileExtension;
-                                    var filePath = Path.Combine(uploadPath, fileName);
-
-                                    await using var fileStream = new FileStream(filePath, FileMode.Create);
-                                    await response.Content.CopyToAsync(fileStream);
-
-                                    // Aktualizacja ścieżki na lokalną
-                                    article.ImagePath = "/upload/" + fileName;
-                                }
-                                else
-                                {
-                                    // Jeśli nie udało się pobrać pliku, zachowaj starą ścieżkę
-                                    ModelState.AddModelError("", "Failed to fetch image from the provided URL.");
-                                }
+                                System.IO.File.Delete(oldFilePath);
                             }
                         }
-                        catch
-                        {
-                            ModelState.AddModelError("", "An error occurred while fetching the external image.");
-                        }
-                    }
 
-                    // Zaktualizuj artykuł w bazie danych
+                        article.ImagePath = "/upload/" + uniqueFileName;
+                    }
+                    else
+                        article.ImagePath = existingArticle.ImagePath;
+
                     _context.Update(article);
                     await _context.SaveChangesAsync();
                 }
@@ -195,6 +167,7 @@ namespace WebApplication1.Controllers
                         throw;
                     }
                 }
+
                 return RedirectToAction(nameof(Index));
             }
 

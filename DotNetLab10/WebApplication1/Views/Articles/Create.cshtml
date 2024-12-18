@@ -27,13 +27,12 @@
                 <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
             </div>
             
-            <!-- Pole do wyboru pliku -->
+            
             <div class="form-group">
                 <label for="imageFile">Upload Image</label>
                 <input type="file" id="imageFile" name="imageFile" class="form-control" accept="image/*" onchange="previewImage(event)" />
             </div>
 
-            <!-- Podgląd obrazka -->
             <div class="form-group">
                 <label>Image Preview</label>
                 <img id="imagePreview" src="/upload/default.png" alt="Image Preview"/>
@@ -52,7 +51,7 @@
 
 @section Scripts {
     <script>
-        // Funkcja do obsługi podglądu obrazka
+        // podgląd obrazka
         function previewImage(event) {
             const imagePreview = document.getElementById('imagePreview');
             const file = event.target.files[0];

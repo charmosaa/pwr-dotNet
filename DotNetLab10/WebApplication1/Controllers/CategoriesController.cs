@@ -139,15 +139,35 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var category = await _context.Categories.FindAsync(id);
-            if (category != null)
+            
+            var category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+            if (category == null)
+                return NotFound();
+
+            if (category.Name == "Other")
             {
-                _context.Categories.Remove(category);
+                TempData["Error"] = "The 'Other' category cannot be deleted.";
+                return RedirectToAction(nameof(Index));
             }
 
+            var articles = await _context.Articles
+                .Where(a => a.CategoryId == id)
+                .ToListAsync();
+
+            var defaultCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Name == "Other");
+            if (defaultCategory == null)
+                return BadRequest("Default category 'Other' is missing.");
+
+            foreach (var article in articles)
+            {
+                article.CategoryId = defaultCategory.Id;
+            }
+
+            _context.Categories.Remove(category);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
 
         private bool CategoryExists(int id)
         {
