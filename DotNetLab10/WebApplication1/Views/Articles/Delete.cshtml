@@ -27,15 +27,19 @@
             @Html.DisplayNameFor(model => model.Category)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.Id)
+            @Html.DisplayFor(model => model.Category.Name)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagePath)
-        </dd>
+       
     </dl>
+    @if (Model.ImagePath != null)
+    {
+        <img src="@Model.ImagePath" />
+    }
+    else
+    {
+        <img src="~/upload/default.png" />
+
+    }
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "46VPwkJ/ZDzwZ+B7sUj6LCu9NxXXGvXWy5VHjU5XDx0=",
+  "Hash": "ZjL0t/Qoak6Y6hGPl5KjR42TeaXb26dTY+bPAdkkkQw=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -1317,6 +1317,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egac544ceq",
+      "Integrity": "7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/2e965330-0a1c-41bd-aabe-93f6c604744f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dacolk2jzr",
+      "Integrity": "NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/427dadec-a1ea-4e69-95ed-f845ea877e63#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "laif7pq2df",
+      "Integrity": "XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ykt6lq0nkg",
+      "Integrity": "QnivGkBTFsRuSkCE4dcDr8Ufb19pVgNbCElqVyzO10s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/aef671b7-6a95-4f71-89d5-2cd2422cd105#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "txkakczmtw",
+      "Integrity": "f4PybtHTz0L02QLAX7S/v5rpd+3Xr8qlxTDJQhTkGYY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png"
     },
     {
       "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\default.png",
@@ -6258,6 +6363,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.egac544ceq.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 12:05:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egac544ceq"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
+        }
+      ]
+    },
+    {
+      "Route": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 12:05:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
+        }
+      ]
+    },
+    {
+      "Route": "upload/2e965330-0a1c-41bd-aabe-93f6c604744f.dacolk2jzr.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 11:10:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dacolk2jzr"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/2e965330-0a1c-41bd-aabe-93f6c604744f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc="
+        }
+      ]
+    },
+    {
+      "Route": "upload/2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 11:10:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc="
+        }
+      ]
+    },
+    {
+      "Route": "upload/427dadec-a1ea-4e69-95ed-f845ea877e63.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo="
+        }
+      ]
+    },
+    {
+      "Route": "upload/427dadec-a1ea-4e69-95ed-f845ea877e63.laif7pq2df.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "laif7pq2df"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/427dadec-a1ea-4e69-95ed-f845ea877e63.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo="
+        }
+      ]
+    },
+    {
+      "Route": "upload/9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QnivGkBTFsRuSkCE4dcDr8Ufb19pVgNbCElqVyzO10s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:34:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnivGkBTFsRuSkCE4dcDr8Ufb19pVgNbCElqVyzO10s="
+        }
+      ]
+    },
+    {
+      "Route": "upload/9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.ykt6lq0nkg.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QnivGkBTFsRuSkCE4dcDr8Ufb19pVgNbCElqVyzO10s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:34:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ykt6lq0nkg"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QnivGkBTFsRuSkCE4dcDr8Ufb19pVgNbCElqVyzO10s="
+        }
+      ]
+    },
+    {
+      "Route": "upload/aef671b7-6a95-4f71-89d5-2cd2422cd105.png",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4PybtHTz0L02QLAX7S/v5rpd+3Xr8qlxTDJQhTkGYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:29:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4PybtHTz0L02QLAX7S/v5rpd+3Xr8qlxTDJQhTkGYY="
+        }
+      ]
+    },
+    {
+      "Route": "upload/aef671b7-6a95-4f71-89d5-2cd2422cd105.txkakczmtw.png",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4PybtHTz0L02QLAX7S/v5rpd+3Xr8qlxTDJQhTkGYY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 10:29:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txkakczmtw"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/aef671b7-6a95-4f71-89d5-2cd2422cd105.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4PybtHTz0L02QLAX7S/v5rpd+3Xr8qlxTDJQhTkGYY="
         }
       ]
     },

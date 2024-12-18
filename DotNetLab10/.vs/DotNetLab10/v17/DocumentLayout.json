@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\migrations\\20241217212032_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20241217212032_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +58,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T11:53:29.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAgwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:57:31.952Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Articles\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T10:56:36.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Articles\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T09:59:49.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Details.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Articles\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T09:58:47.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "20241217212032_Init.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Migrations\\20241217212032_Init.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20241217212032_Init.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Migrations\\20241217212032_Init.cs",
               "RelativeToolTip": "WebApplication1\\Migrations\\20241217212032_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T21:20:33.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -67,12 +164,11 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T21:10:21.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T21:10:21.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -80,12 +176,11 @@
               "RelativeToolTip": "WebApplication1\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-17T21:05:33.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T21:05:33.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "ModelBuilderExtension.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Data\\ModelBuilderExtension.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ModelBuilderExtension.cs",
@@ -93,68 +188,46 @@
               "RelativeToolTip": "WebApplication1\\Data\\ModelBuilderExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:50:12.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T20:50:12.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Article.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Article.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Article.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Article.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Article.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:40:02.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StoreDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Data\\StoreDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Data\\StoreDbContext.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Data\\StoreDbContext.cs",
-              "RelativeToolTip": "WebApplication1\\Data\\StoreDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:42:15.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Category.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T20:39:06.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WebApplication1",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-17T20:41:50.055Z",
+              "DocumentIndex": 3,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Article.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Article.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:40:02.405Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Articles\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T09:09:32.284Z",
+              "EditorCaption": ""
             }
           ]
         }

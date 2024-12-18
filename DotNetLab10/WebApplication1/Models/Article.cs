@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using WebApplication1.Models;
 
 namespace WebApplication1.Models
@@ -13,10 +14,14 @@ namespace WebApplication1.Models
         public string? Name { get; set; }
         [Range(0, 99999.99)]
         public decimal Price { get; set; }
+        [Required]
+        [Display(Name="Category")]
         public int CategoryId { get; set; }
+
 
         public Category? Category { get; set; }
         [MaxLength(255)]
+        [Display(Name = "Image")]
         public string? ImagePath { get; set; }
         public Article()
         {

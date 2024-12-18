@@ -245,6 +245,26 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
+      "PackagePath": "staticwebassets\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
+      "PackagePath": "staticwebassets\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg",
+      "PackagePath": "staticwebassets\\upload\\427dadec-a1ea-4e69-95ed-f845ea877e63.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg",
+      "PackagePath": "staticwebassets\\upload\\9fd5e8b1-ac5d-47d6-ad95-c4ef153bf5a5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png",
+      "PackagePath": "staticwebassets\\upload\\aef671b7-6a95-4f71-89d5-2cd2422cd105.png"
+    },
+    {
       "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\default.png",
       "PackagePath": "staticwebassets\\upload\\default.png"
     },
