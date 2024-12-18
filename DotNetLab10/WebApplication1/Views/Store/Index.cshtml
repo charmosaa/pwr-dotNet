@@ -22,42 +22,25 @@
         </div>
         <div class="col-md-9">
             <h2>Articles</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>@Html.DisplayNameFor(model => model.Name)</th>
-                        <th>@Html.DisplayNameFor(model => model.Price)</th>
-                        <th>@Html.DisplayNameFor(model => model.ImagePath)</th>
-                        <th>@Html.DisplayNameFor(model => model.CategoryId)</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                            <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                            <td>
-                                @if (item.ImagePath != null)
-                                {
-                                    <img src="@item.ImagePath" style="max-width: 50px; max-height: 50px;" />
-                                }
-                                else
-                                {
-                                    <img src="~/upload/default.png" style="max-width: 50px; max-height: 50px;" />
-
-                                }
-
-                            </td>
-                            <td>
-                                <span data-category-id="@item.CategoryId" data-category-name=""></span>
-                            </td>
-                          
-                        </tr>
-                    }
-                </tbody>
-            </table>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-3 mb-4">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="@Url.Content(item.ImagePath ?? "~/upload/default.png")" 
+                                 alt="@item.Name" style="height: 150px; object-fit: contain;" />
+                                 
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">
+                                    Price: @item.Price.ToString("C")<br />
+                                    Category: <span data-category-id="@item.CategoryId" data-category-name=""></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
         </div>
     </div>
 </div>
@@ -68,12 +51,14 @@
     }
 
     <script>
+        // Tworzymy słownik kategorii
         var categoriesDict = {};
         @foreach (var cat in ViewBag.Categories)
         {
             @:categoriesDict[@cat.Id] = "@cat.Name";
         }
 
+        // Przypisujemy nazwę kategorii do artykułów
         var spans = document.querySelectorAll('[data-category-id]');
         spans.forEach(function (span) {
             var categoryId = span.getAttribute('data-category-id');
