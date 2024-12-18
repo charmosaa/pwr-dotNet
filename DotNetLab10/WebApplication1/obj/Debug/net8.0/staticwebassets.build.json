@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZjL0t/Qoak6Y6hGPl5KjR42TeaXb26dTY+bPAdkkkQw=",
+  "Hash": "5LZRnnxx5nH5UeZ4wTgNrULQlkr5aiGffoyY8ESN0x0=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -1317,27 +1317,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "egac544ceq",
-      "Integrity": "7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg"
     },
     {
       "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\2e965330-0a1c-41bd-aabe-93f6c604744f.jpg",
@@ -6363,88 +6342,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
-        }
-      ]
-    },
-    {
-      "Route": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.egac544ceq.jpg",
-      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 12:05:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "egac544ceq"
-        },
-        {
-          "Name": "label",
-          "Value": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
-        }
-      ]
-    },
-    {
-      "Route": "upload/216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
-      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\216d3f0b-8a19-4076-8e11-f7136537b29d_hammer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 12:05:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
         }
       ]
     },
