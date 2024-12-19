@@ -139,7 +139,7 @@ namespace WebApplication1.Controllers
                             await imageFile.CopyToAsync(fileStream);
                         }
 
-                        if (!string.IsNullOrEmpty(existingArticle.ImagePath) && !existingArticle.ImagePath.StartsWith("http"))
+                        if (!string.IsNullOrEmpty(existingArticle.ImagePath))
                         {
                             string oldFilePath = Path.Combine(_hostingEnvironment.WebRootPath, existingArticle.ImagePath.TrimStart('/'));
                             if (System.IO.File.Exists(oldFilePath))

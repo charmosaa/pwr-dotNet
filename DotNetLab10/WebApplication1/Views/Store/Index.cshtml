@@ -51,14 +51,12 @@
     }
 
     <script>
-        // Tworzymy słownik kategorii
         var categoriesDict = {};
         @foreach (var cat in ViewBag.Categories)
         {
             @:categoriesDict[@cat.Id] = "@cat.Name";
         }
 
-        // Przypisujemy nazwę kategorii do artykułów
         var spans = document.querySelectorAll('[data-category-id]');
         spans.forEach(function (span) {
             var categoryId = span.getAttribute('data-category-id');
