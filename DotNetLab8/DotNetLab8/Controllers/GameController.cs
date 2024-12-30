@@ -1,13 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Collections.Generic;
 
 namespace DotNetLab8.Controllers
 {
     public class GameController : Controller
     {
-        private static int range = 100;
-        private static int random = new Random().Next(range);
-        private static int guessCounter = 0;
-        private static List<int> previousGuesses = new List<int>();
+        private const string RangeKey = "Range";
+        private const string RandomKey = "Random";
+        private const string GuessCounterKey = "GuessCounter";
+        private const string PreviousGuessesKey = "PreviousGuesses";
+
         public IActionResult Set(int newRange)
         {
             string cssClass;
@@ -17,94 +21,85 @@ namespace DotNetLab8.Controllers
             if (newRange <= 0)
             {
                 cssClass = "error";
-                message = $"Range must be greater than 0";
+                message = "Range must be greater than 0";
                 message2 = "try again";
             }
             else
             {
-                range = newRange;
-                random = new Random().Next(range);
-                guessCounter = 0;
-                previousGuesses.Clear();
+                HttpContext.Session.SetInt32(RangeKey, newRange);
+                HttpContext.Session.SetInt32(RandomKey, new Random().Next(newRange));
+                HttpContext.Session.SetInt32(GuessCounterKey, 0);
+                HttpContext.Session.SetString(PreviousGuessesKey, "");
+
                 cssClass = "success";
-                message = $"New range: <0,{range})";
+                message = $"New range: <0,{newRange})";
                 message2 = "start guessing";
             }
             ViewData["Message"] = message;
             ViewData["Message2"] = message2;
             ViewData["CssClass"] = cssClass;
-            ViewData["Counter"] = $"guesses: {guessCounter}";
+            ViewData["Counter"] = "guesses: 0";
 
             return View("Game");
         }
 
         public IActionResult Draw()
         {
-            random = new Random().Next(range);
-            guessCounter = 0;
-            previousGuesses.Clear();
+            int range = HttpContext.Session.GetInt32(RangeKey) ?? 100;
+            HttpContext.Session.SetInt32(RandomKey, new Random().Next(range));
+            HttpContext.Session.SetInt32(GuessCounterKey, 0);
+            HttpContext.Session.SetString(PreviousGuessesKey, "");
 
             ViewData["Message"] = $"New number has been set from range <0,{range})";
-            ViewData["Message2"] = $"start guessing";
-            ViewData["CssClass"] = "newRandom"; 
-            ViewData["Counter"] = $"guesses: {guessCounter}";
+            ViewData["Message2"] = "start guessing";
+            ViewData["CssClass"] = "newRandom";
+            ViewData["Counter"] = "guesses: 0";
 
             return View("Game");
         }
 
         public IActionResult Guess(int guessedNumber)
         {
-            string cssClass;
-            string message;
-            string compared;
-            string message2;
-            string counter;
-            string previousGuessesString;
-
-            cssClass = "guess";
+            string cssClass = "guess";
+            int range = HttpContext.Session.GetInt32(RangeKey) ?? 100;
+            int random = HttpContext.Session.GetInt32(RandomKey) ?? new Random().Next(range);
+            int guessCounter = HttpContext.Session.GetInt32(GuessCounterKey) ?? 0;
             guessCounter++;
-            counter = $"guesses: {guessCounter}";
 
-            previousGuesses.Add(guessedNumber);
-            previousGuessesString = $"previous guesses: {GuessesToString()}";
+            string previousGuesses = HttpContext.Session.GetString(PreviousGuessesKey) ?? "";
+            previousGuesses += $"{guessedNumber}, ";
 
-
+            string compared;
             if (guessedNumber < random)
+            {
                 compared = "too low";
-            
+            }
             else if (guessedNumber > random)
+            {
                 compared = "too high";
-            
+            }
             else
             {
                 cssClass = "correctGuess";
                 compared = "correct";
+                HttpContext.Session.SetInt32(RandomKey, new Random().Next(range));
+                HttpContext.Session.SetInt32(GuessCounterKey, 0);
+                HttpContext.Session.SetString(PreviousGuessesKey, "");
                 ViewData["Restart"] = "new number has been set - start guessing again";
                 guessCounter = 0;
-                random = new Random().Next(range);
-                previousGuesses.Clear();
+                previousGuesses = "";
             }
 
-            message = $"Number from range <0,{range})";
-            message2 = $"YOUR GUESS: {guessedNumber} is {compared}";
+            HttpContext.Session.SetInt32(GuessCounterKey, guessCounter);
+            HttpContext.Session.SetString(PreviousGuessesKey, previousGuesses);
 
-            ViewData["Message"] = message;
-            ViewData["Message2"] = message2;
-            ViewData["Counter"] = counter;
+            ViewData["Message"] = $"Number from range <0,{range})";
+            ViewData["Message2"] = $"YOUR GUESS: {guessedNumber} is {compared}";
+            ViewData["Counter"] = $"guesses: {guessCounter}";
             ViewData["CssClass"] = cssClass;
-            ViewData["PreviousGuesses"] = previousGuessesString;
+            ViewData["PreviousGuesses"] = $"previous guesses: {previousGuesses}";
 
             return View("Game");
         }
-
-        private string GuessesToString()
-        {
-            string result = "";
-            foreach (int i in previousGuesses)
-                result += $"{i}, ";
-            return result;
-        }
-
-
     }
 }
