@@ -1,0 +1,522 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\shop\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\shop\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\pages\\articles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\pages\\articles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Migrations\\20241230160905_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab10RazorPages\\Migrations\\20241230160905_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|c:\\users\\marty\\source\\repos\\lab10razorpages\\lab10razorpages\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{087B1FF0-3DF6-46CC-92C8-0228265B42B7}|Lab10RazorPages\\Lab10RazorPages.csproj|solutionrelative:lab10razorpages\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\appsettings.json",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\appsettings.json",
+              "RelativeToolTip": "Lab10RazorPages\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T15:59:52.893Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shop\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Shop\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shop\\Index.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Shop\\Index.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:36:51.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Shop\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T18:35:04.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:07:04.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Create.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:13:38.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Create.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:13:38.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:16:08.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Delete.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:16:08.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:16:08.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:16:09.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Edit.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Edit.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA+wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:13:39.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Delete.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:13:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Program.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Program.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Program.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:52:57.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Details.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Details.cshtml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:13:40.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Details.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Details.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:13:39.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Edit.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:13:39.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Models\\Article.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Models\\Article.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:37:07.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Details.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:16:08.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:16:07.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Index.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:13:40.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:16:07.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:16:07.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:16:07.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T16:16:06.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Pages\\Articles\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Pages\\Articles\\Index.cshtml.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Pages\\Articles\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:13:40.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241230160905_Init.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Migrations\\20241230160905_Init.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Migrations\\20241230160905_Init.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Migrations\\20241230160905_Init.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Migrations\\20241230160905_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T16:09:05.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ModelBuilderExtension.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Data\\ModelBuilderExtension.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Data\\ModelBuilderExtension.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Data\\ModelBuilderExtension.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Data\\ModelBuilderExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:44:02.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Data\\StoreDbContext.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Data\\StoreDbContext.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Data\\StoreDbContext.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Data\\StoreDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:43:39.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Lab10RazorPages\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\Lab10RazorPages\\Lab10RazorPages\\Models\\Category.cs",
+              "RelativeToolTip": "Lab10RazorPages\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:38:28.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

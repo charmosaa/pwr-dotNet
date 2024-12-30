@@ -1,0 +1,54 @@
+﻿@page
+@model Lab10RazorPages.Pages.Shop.IndexModel
+
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h2>Categories</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a asp-page="./Index">All Products</a>
+                </li>
+                @foreach (var category in Model.Categories)
+                {
+                    <li class="list-group-item">
+                        <a asp-page="./Index" asp-route-categoryId="@category.Id">@category.Name</a>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <h2>Articles</h2>
+            <div class="row">
+                @foreach (var item in Model.Articles)
+                {
+                    <div class="col-md-3 mb-4">
+                        <div class="card shadow-sm">
+                            <img class="card-img-top" src="@Url.Content(item.ImagePath ?? "~/upload/default.png")"
+                                 alt="@item.Name" style="height: 150px; object-fit: contain;" />
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">
+                                    Price: @item.Price.ToString("C")<br />
+                                    Category: <span>@Model.Categories.FirstOrDefault(c => c.Id == item.CategoryId)?.Name</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Message"]
+    </div>
+}
