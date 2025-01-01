@@ -27,18 +27,22 @@
                 {
                     <div class="col-md-3 mb-4">
                         <div class="card shadow-sm">
-                            <img class="card-img-top" src="@Url.Content(item.ImagePath ?? "~/upload/default.png")" 
+                            <img class="card-img-top" src="@Url.Content(item.ImagePath ?? "~/upload/default.png")"
                                  alt="@item.Name" style="height: 150px; object-fit: contain;" />
-                                 
+
                             <div class="card-body text-center">
                                 <h5 class="card-title">@item.Name</h5>
                                 <p class="card-text">
                                     Price: @item.Price.ToString("C")<br />
                                     Category: <span data-category-id="@item.CategoryId" data-category-name=""></span>
                                 </p>
+                                <a class="btn btn-primary" asp-action="AddToCart" asp-route-articleId="@item.Id">
+                                    Add to Cart
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 }
             </div>
         </div>

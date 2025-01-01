@@ -1,0 +1,53 @@
+﻿@model IEnumerable<(WebApplication1.Models.Article Article, int Quantity)>
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<div class="container">
+    <h2>Your Cart</h2>
+    @if (!Model.Any())
+    {
+        <p>Your cart is empty.</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Article Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@Url.Content(item.Article.ImagePath ?? "~/upload/default.png")"
+                                 alt="@item.Article.Name" style="height: 50px; width: 50px; object-fit: contain;" />
+                        </td>
+                        <td>@item.Article.Name</td>
+                        <td>@item.Article.Category.Name</td>
+                        <td>@(item.Quantity * item.Article.Price)</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            <a asp-action="IncreaseQuantity" asp-route-articleId="@item.Article.Id" class="btn btn-sm btn-success">+</a>
+                            <a asp-action="DecreaseQuantity" asp-route-articleId="@item.Article.Id" class="btn btn-sm btn-warning">-</a>
+                            <a asp-action="RemoveFromCart" asp-route-articleId="@item.Article.Id" class="btn btn-sm btn-danger">Remove</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p class="text-right">
+            <strong>Total: </strong>
+            @Model.Sum(item => item.Quantity * item.Article.Price).ToString("C")
+        </p>
+    }
+    <a class="btn btn-secondary" asp-action="Index">Continue Shopping</a>
+</div>
