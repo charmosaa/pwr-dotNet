@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using WebApplication1.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +10,18 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContextPool<StoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyDb"))
 );
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddRoles<IdentityRole>() 
+    .AddEntityFrameworkStores<StoreDbContext>();
+
+builder.Services.AddAuthorizationBuilder()
+.AddPolicy("RequireRoleForCreatingArticles", policy =>
+    policy.RequireRole("Admin"));
+
+builder.Services.AddAuthorizationBuilder()
+.AddPolicy("RequireRoleForCreatingCategories", policy =>
+    policy.RequireRole("Admin"));
 
 var app = builder.Build();
 
@@ -26,8 +40,17 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+using (var scope = app.Services.CreateScope())
+{
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
+    await MyIdentityDataInitializer.SeedData(userManager,roleManager);
+}
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
