@@ -49,5 +49,7 @@
             @Model.Sum(item => item.Quantity * item.Article.Price).ToString("C")
         </p>
     }
+
+    <a asp-action="Order" class="btn btn-primary">Order</a>
     <a class="btn btn-secondary" asp-action="Index">Continue Shopping</a>
 </div>

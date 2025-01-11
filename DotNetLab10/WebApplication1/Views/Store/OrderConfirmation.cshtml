@@ -1,0 +1,11 @@
+﻿@model WebApplication1.Models.ConfirmationViewModel
+
+<div class="container mt-4">
+    <h2>Order Confirmation</h2>
+    <p>Thank you, <strong>@Model.FullName</strong>, for your order!</p>
+    <p>Your order will be shipped to:</p>
+    <p><strong>@Model.Address</strong></p>
+    <p>Payment method selected: <strong>@Model.PaymentMethod</strong></p>
+
+    <a asp-controller="Store" asp-action="Index" class="btn btn-primary mt-3">Back to Store</a>
+</div>

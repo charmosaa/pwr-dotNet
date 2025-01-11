@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
+using WebApplication1.Models;
 
 public class StoreController : Controller
 {
@@ -111,6 +113,58 @@ public class StoreController : Controller
         Response.Cookies.Delete(cookieName);
         return RedirectToAction("Cart");
     }
+
+    [Authorize]
+    public IActionResult Order()
+    {
+        var cartItems = new List<(WebApplication1.Models.Article Article, int Quantity)>();
+        decimal totalCost = 0;
+
+        foreach (var cookie in Request.Cookies)
+        {
+            if (cookie.Key.StartsWith("article"))
+            {
+                if (int.TryParse(cookie.Key.Substring("article".Length), out int articleId) &&
+                    int.TryParse(cookie.Value, out int quantity))
+                {
+                    var article = _context.Articles.Include(a => a.Category).FirstOrDefault(a => a.Id == articleId);
+                    if (article != null)
+                    {
+                        cartItems.Add((article, quantity));
+                        totalCost += article.Price * quantity;
+                    }
+                }
+            }
+        }
+
+        var model = new OrderModel
+        {
+            CartItems = cartItems,
+            TotalCost = totalCost
+        };
+
+        return View(model);
+    }
+
+
+    [HttpPost]
+    public IActionResult ConfirmOrder(string FullName, string Address, string PaymentMethod)
+    {
+        foreach (var cookie in Request.Cookies.Where(c => c.Key.StartsWith("article")))
+        {
+            Response.Cookies.Delete(cookie.Key);
+        }
+
+        var model = new ConfirmationViewModel
+        {
+            FullName = FullName,
+            Address = Address,
+            PaymentMethod = PaymentMethod
+        };
+
+        return View("OrderConfirmation", model);
+    }
+
 
 
 }
