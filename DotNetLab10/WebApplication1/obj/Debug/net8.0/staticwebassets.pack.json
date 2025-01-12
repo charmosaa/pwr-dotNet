@@ -253,6 +253,10 @@
       "PackagePath": "staticwebassets\\upload\\28f51e46-20e6-418f-8ded-256803fea6e8_sunflower.jpg"
     },
     {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
+      "PackagePath": "staticwebassets\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg"
+    },
+    {
       "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\banan.jpg",
       "PackagePath": "staticwebassets\\upload\\banan.jpg"
     },
@@ -261,12 +265,20 @@
       "PackagePath": "staticwebassets\\upload\\barbie.jpg"
     },
     {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg",
+      "PackagePath": "staticwebassets\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg"
+    },
+    {
       "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\car.jpg",
       "PackagePath": "staticwebassets\\upload\\car.jpg"
     },
     {
       "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\default.png",
       "PackagePath": "staticwebassets\\upload\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg",
+      "PackagePath": "staticwebassets\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

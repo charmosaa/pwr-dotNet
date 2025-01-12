@@ -22,8 +22,9 @@
         </div>
         <div class="col-md-9">
             <h2>Articles</h2>
-            <div class="row">
-                @foreach (var item in Model)
+            <div id="article-list" class="row">
+                <!-- Container for articles -->
+                @foreach (var item in Model.Take(8))
                 {
                     <div class="col-md-3 mb-4">
                         <div class="card shadow-sm">
@@ -36,15 +37,24 @@
                                     Price: @item.Price.ToString("C")<br />
                                     Category: <span data-category-id="@item.CategoryId" data-category-name=""></span>
                                 </p>
-                                <a class="btn btn-primary" asp-action="AddToCart" asp-route-articleId="@item.Id">
+                                <a class="btn btn-primary" asp-action="AddToCart" asp-route-articleId="@item.Id" asp-route-page="@ViewData["CurrentPage"]">                                    
                                     Add to Cart
                                 </a>
                             </div>
                         </div>
                     </div>
-
                 }
             </div>
+
+            <button id="prev-btn" class="btn btn-secondary"
+                    onclick="loadPreviousPage(@ViewData["CurrentPage"])">
+                Previous
+            </button>
+            <button id="next-btn" class="btn btn-primary"
+                    onclick="loadNextPage(@ViewData["CurrentPage"])">
+                Next
+            </button>
+
         </div>
     </div>
 </div>
@@ -68,5 +78,59 @@
             span.setAttribute('data-category-name', categoryName);
             span.innerText = categoryName;
         });
+    </script>
+
+    <script>
+        let currentPage = @ViewData["CurrentPage"] || 1;
+        const pageSize = 8;
+
+               function loadArticles(page, pageSize) {
+            $.ajax({
+                url: '/api/article',
+                data: { page: page, pageSize: pageSize },
+                success: function (data) {
+                    const articleList = $('#article-list');
+
+                    articleList.empty();
+
+                    data.forEach(function (article) {
+                        const articleHtml = `
+                            <div class="col-md-3 mb-4">
+                                <div class="card shadow-sm">
+                                    <img class="card-img-top" src="${article.ImagePath || '/upload/default.png'}" alt="${article.Name}" style="height: 150px; object-fit: contain;" />
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">${article.Name}</h5>
+                                        <p class="card-text">
+                                            Price: ${article.Price.toFixed(2)}<br />
+                                            Category: <span data-category-id="${article.CategoryId}" data-category-name=""></span>
+                                        </p>
+                                        <a class="btn btn-primary" href="/Store/AddToCart?articleId=${article.Id}">
+                                            Add to Cart
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>`;
+                        articleList.append(articleHtml);
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error loading more articles:', error);
+                }
+            });
+        }
+
+        function loadNextPage() {
+            currentPage++; 
+            loadArticles(currentPage);  
+        }
+
+        function loadPreviousPage() {
+            if (currentPage > 1) {
+                currentPage--; 
+                loadArticles(currentPage); 
+            }
+        }
+
+
     </script>
 }

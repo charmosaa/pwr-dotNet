@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TOygcF9sch7pnyUCv31lH3TnApjkb99NDOS7Cj6DXCE=",
+  "Hash": "6bk1RBhdOEdyLeADALoLagYv+yIf8f85oszGvr/haHQ=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -2621,6 +2621,27 @@
       "OriginalItemSpec": "wwwroot\\upload\\28f51e46-20e6-418f-8ded-256803fea6e8_sunflower.jpg"
     },
     {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egac544ceq",
+      "Integrity": "7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg"
+    },
+    {
       "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\banan.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -2663,6 +2684,27 @@
       "OriginalItemSpec": "wwwroot\\upload\\barbie.jpg"
     },
     {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4l5r52mcdt",
+      "Integrity": "+N2vF72s+7D2XHU60FYRxPqnPIjOI1qy53YD2gMgeW8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg"
+    },
+    {
       "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\car.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
@@ -2703,6 +2745,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\upload\\default.png"
+    },
+    {
+      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "upload/ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dacolk2jzr",
+      "Integrity": "NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg"
     }
   ],
   "Endpoints": [
@@ -10011,6 +10074,88 @@
       ]
     },
     {
+      "Route": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.egac544ceq.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "egac544ceq"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
+        }
+      ]
+    },
+    {
+      "Route": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:20:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
+        }
+      ]
+    },
+    {
       "Route": "upload/banan.jpg",
       "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\banan.jpg",
       "Selectors": [],
@@ -10175,6 +10320,88 @@
       ]
     },
     {
+      "Route": "upload/c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.4l5r52mcdt.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+N2vF72s+7D2XHU60FYRxPqnPIjOI1qy53YD2gMgeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:20:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4l5r52mcdt"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+N2vF72s+7D2XHU60FYRxPqnPIjOI1qy53YD2gMgeW8="
+        }
+      ]
+    },
+    {
+      "Route": "upload/c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+N2vF72s+7D2XHU60FYRxPqnPIjOI1qy53YD2gMgeW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:20:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+N2vF72s+7D2XHU60FYRxPqnPIjOI1qy53YD2gMgeW8="
+        }
+      ]
+    },
+    {
       "Route": "upload/car.jpg",
       "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\car.jpg",
       "Selectors": [],
@@ -10335,6 +10562,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pcaQ8uC85R+FC+owjUJsigJ+XkwPKgT4wxo+zh2Ya+o="
+        }
+      ]
+    },
+    {
+      "Route": "upload/ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.dacolk2jzr.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dacolk2jzr"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc="
+        }
+      ]
+    },
+    {
+      "Route": "upload/ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg",
+      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 18:19:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTksiVi7g6EEXtzofWVPCuU6sSjG+OUT8HuY0IREMwc="
         }
       ]
     },

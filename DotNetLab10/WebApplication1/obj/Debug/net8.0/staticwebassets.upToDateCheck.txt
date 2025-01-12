@@ -60,7 +60,10 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\upload\06f5b2c3-a15b-4d8f-832a-e2fd1c31a645_chleb.jpg
 wwwroot\upload\28f51e46-20e6-418f-8ded-256803fea6e8_sunflower.jpg
+wwwroot\upload\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg
 wwwroot\upload\banan.jpg
 wwwroot\upload\barbie.jpg
+wwwroot\upload\c72b98fa-e284-4234-b3e6-c5bb3268b5bf_fresh-lemon.jpg
 wwwroot\upload\car.jpg
 wwwroot\upload\default.png
+wwwroot\upload\ee0edbaf-3ae3-4c38-b255-f63e29afbf3b_orange.jpg
