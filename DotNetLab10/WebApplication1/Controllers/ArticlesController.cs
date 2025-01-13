@@ -11,7 +11,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize(Policy = "RequireRoleForCreatingArticles")]
+    [Authorize(Policy = "RequireRoleForEditing")]
     public class ArticlesController : Controller
     {
         private readonly StoreDbContext _context;

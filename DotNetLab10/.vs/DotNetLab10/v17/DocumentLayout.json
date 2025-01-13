@@ -7,36 +7,40 @@
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\categoriesapiconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categoriesapiconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\articlesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\articlesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\store\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\store\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\categoriesapiconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categoriesapiconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CB1AB5B-766B-4C23-ABC8-80F8ACBBA0FF}|WebApplication1\\WebApplication1.csproj|c:\\users\\marty\\source\\repos\\dotnetlab10\\webapplication1\\views\\store\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,41 +110,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Cart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Cart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Store\\Cart.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-10T17:07:02.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesApiConroller.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesApiConroller.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoriesApiConroller.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesApiConroller.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoriesApiConroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T17:43:49.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:57:31.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ArticlesApiController.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesApiController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ArticlesApiController.cs",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesApiController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\ArticlesApiController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T15:49:18.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderModel.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\OrderModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\OrderModel.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\OrderModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\OrderModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T17:05:06.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StoreController.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\StoreController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StoreController.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\StoreController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\StoreController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAswBkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T16:57:11.742Z",
               "EditorCaption": ""
             },
             {
@@ -151,7 +168,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Index.cshtml",
               "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Store\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-18T12:31:20.196Z",
               "EditorCaption": ""
@@ -159,30 +176,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Cart.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Cart.cshtml",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Cart.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Store\\Cart.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-10T17:07:02.305Z"
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:49:01.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriesApiConroller.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesApiConroller.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoriesApiConroller.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\CategoriesApiConroller.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\CategoriesApiConroller.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T17:43:49.139Z"
+              "WhenOpened": "2025-01-10T16:57:11.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:25:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\OrderModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:05:06.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ModelBuilderExtension.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Data\\ModelBuilderExtension.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Data\\ModelBuilderExtension.cs",
@@ -194,19 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T16:25:21.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Order.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\Order.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\Order.cshtml",
@@ -218,19 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ArticlesController.cs",
-              "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ArticlesController.cs",
-              "ToolTip": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Controllers\\ArticlesController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ArticlesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:57:31.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ConfirmationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\ConfirmationViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ConfirmationViewModel.cs",
@@ -242,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ErrorViewModel.cs",
@@ -254,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Store\\OrderConfirmation.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Store\\OrderConfirmation.cshtml",
@@ -266,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Edit.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Edit.cshtml",
@@ -278,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Create.cshtml",
@@ -290,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Details.cshtml",
@@ -302,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Views\\Articles\\Delete.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Articles\\Delete.cshtml",
@@ -314,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Category.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
@@ -326,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -338,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Models\\Article.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Article.cs",
@@ -350,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "20241218195636_UpdateSeedData.cs",
               "DocumentMoniker": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\Migrations\\20241218195636_UpdateSeedData.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20241218195636_UpdateSeedData.cs",

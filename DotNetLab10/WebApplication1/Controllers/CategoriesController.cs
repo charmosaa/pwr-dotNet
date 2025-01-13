@@ -11,7 +11,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize(Policy = "RequireRoleForCreatingCategories")]
+    [Authorize(Policy = "RequireRoleForEditing")]
     public class CategoriesController : Controller
     {
         private readonly StoreDbContext _context;

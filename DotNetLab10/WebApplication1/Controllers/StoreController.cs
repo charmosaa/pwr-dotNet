@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication1.Data;
 using WebApplication1.Models;
 
+
+[Authorize(Policy = "RequireRoleForViewStore")]
 public class StoreController : Controller
 {
     private readonly StoreDbContext _context;

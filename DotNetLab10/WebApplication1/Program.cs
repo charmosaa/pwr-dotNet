@@ -24,12 +24,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<StoreDbContext>();
 
 builder.Services.AddAuthorizationBuilder()
-.AddPolicy("RequireRoleForCreatingArticles", policy =>
+.AddPolicy("RequireRoleForEditing", policy =>
     policy.RequireRole("Admin"));
 
 builder.Services.AddAuthorizationBuilder()
-.AddPolicy("RequireRoleForCreatingCategories", policy =>
-    policy.RequireRole("Admin"));
+    .AddPolicy("RequireRoleForViewStore", policy =>
+        policy.RequireAssertion(context =>
+            !context.User.IsInRole("Admin")));
 
 var app = builder.Build();
 
