@@ -13,7 +13,7 @@ public class StoreController : Controller
         _context = context;
     }
 
-    public async Task<IActionResult> Index(int? categoryId, int page = 1)
+    public async Task<IActionResult> Index(int? categoryId)
     {
         var articles = await _context.Articles.ToListAsync();
 
@@ -23,12 +23,12 @@ public class StoreController : Controller
         }
 
         ViewBag.Categories = await _context.Categories.ToListAsync();
-        ViewData["CurrentPage"] = page;
+        ViewBag.CategoryId = categoryId;
 
         return View(articles);
     }
 
-    public IActionResult AddToCart(int articleId, int page = 1)
+    public IActionResult AddToCart(int articleId)
     {
         string cookieName = $"article{articleId}";
         int quantity = 1;
@@ -46,7 +46,7 @@ public class StoreController : Controller
             Expires = DateTime.Now.AddDays(7)
         });
 
-        return RedirectToAction("Index", new { page = page });
+        return RedirectToAction("Index");
     }
 
     public IActionResult Cart()

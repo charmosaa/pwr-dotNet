@@ -23,7 +23,7 @@
         <div class="col-md-9">
             <h2>Articles</h2>
             <div id="article-list" class="row">
-                <!-- Container for articles -->
+                
                 @foreach (var item in Model.Take(8))
                 {
                     <div class="col-md-3 mb-4">
@@ -37,7 +37,7 @@
                                     Price: @item.Price.ToString("C")<br />
                                     Category: <span data-category-id="@item.CategoryId" data-category-name=""></span>
                                 </p>
-                                <a class="btn btn-primary" asp-action="AddToCart" asp-route-articleId="@item.Id" asp-route-page="@ViewData["CurrentPage"]">                                    
+                                <a class="btn btn-primary" asp-action="AddToCart" asp-route-articleId="@item.Id">                                    
                                     Add to Cart
                                 </a>
                             </div>
@@ -47,11 +47,11 @@
             </div>
 
             <button id="prev-btn" class="btn btn-secondary"
-                    onclick="loadPreviousPage(@ViewData["CurrentPage"])">
+                    onclick="loadPreviousPage()">
                 Previous
             </button>
             <button id="next-btn" class="btn btn-primary"
-                    onclick="loadNextPage(@ViewData["CurrentPage"])">
+                    onclick="loadNextPage()">
                 Next
             </button>
 
@@ -81,13 +81,17 @@
     </script>
 
     <script>
-        let currentPage = @ViewData["CurrentPage"] || 1;
+        let currentPage = 1;
         const pageSize = 8;
 
                function loadArticles(page, pageSize) {
             $.ajax({
                 url: '/api/article',
-                data: { page: page, pageSize: pageSize },
+                data: { 
+                    page: page, 
+                    pageSize: pageSize,
+                    categoryId: @(ViewBag.CategoryId ?? "null")
+                },
                 success: function (data) {
                     const articleList = $('#article-list');
 
@@ -102,7 +106,7 @@
                                         <h5 class="card-title">${article.Name}</h5>
                                         <p class="card-text">
                                             Price: ${article.Price.toFixed(2)}<br />
-                                            Category: <span data-category-id="${article.CategoryId}" data-category-name=""></span>
+                                            Category: <span>${article.CategoryName || 'No category'}</span>
                                         </p>
                                         <a class="btn btn-primary" href="/Store/AddToCart?articleId=${article.Id}">
                                             Add to Cart

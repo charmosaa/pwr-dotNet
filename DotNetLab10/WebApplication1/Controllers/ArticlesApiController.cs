@@ -44,18 +44,37 @@ namespace WebApplication1.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get(int page = 1, int pageSize = 8)
+        public async Task<IActionResult> Get(int page = 1, int pageSize = 8, int? categoryId = null)
         {
-            var articlesQuery = _context.Articles.Include(a => a.Category);
+            // Zacznij od bazowej kwerendy
+            IQueryable<Article> articlesQuery = _context.Articles.Include(a => a.Category);
 
-            // Apply pagination
+            // Dodaj filtr kategorii, jeśli podano categoryId
+            if (categoryId.HasValue)
+            {
+                articlesQuery = articlesQuery.Where(a => a.CategoryId == categoryId.Value);
+            }
+
+            // Zastosuj stronicowanie i projekcję
             var articles = await articlesQuery
-                .Skip((page - 1) * pageSize) 
-                .Take(pageSize)             
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(a => new
+                {
+                    a.Id,
+                    a.Name,
+                    a.Price,
+                    a.ImagePath,
+                    CategoryName = a.Category.Name
+                })
                 .ToListAsync();
 
             return Ok(articles);
         }
+
+
+
+
 
 
         // POST: api/article
