@@ -46,14 +46,7 @@
                 }
             </div>
 
-            <button id="prev-btn" class="btn btn-secondary"
-                    onclick="loadPreviousPage()">
-                Previous
-            </button>
-            <button id="next-btn" class="btn btn-primary"
-                    onclick="loadNextPage()">
-                Next
-            </button>
+            <button id="load-more-btn" class="btn btn-primary" onclick="loadMoreArticles()">Load More</button>
 
         </div>
     </div>
@@ -81,21 +74,19 @@
     </script>
 
     <script>
-        let currentPage = 1;
+        let currentPage = 2;
         const pageSize = 8;
 
-               function loadArticles(page, pageSize) {
+        function loadMoreArticles() {
             $.ajax({
                 url: '/api/article',
-                data: { 
-                    page: page, 
+                data: {
+                    page: currentPage,
                     pageSize: pageSize,
                     categoryId: @(ViewBag.CategoryId ?? "null")
                 },
                 success: function (data) {
                     const articleList = $('#article-list');
-
-                    articleList.empty();
 
                     data.forEach(function (article) {
                         const articleHtml = `
@@ -116,23 +107,17 @@
                             </div>`;
                         articleList.append(articleHtml);
                     });
+
+                    if (data.length < pageSize) {
+                        $('#load-more-btn').hide(); 
+                    } else {
+                        currentPage++;
+                    }
                 },
                 error: function (xhr, status, error) {
                     console.error('Error loading more articles:', error);
                 }
             });
-        }
-
-        function loadNextPage() {
-            currentPage++; 
-            loadArticles(currentPage);  
-        }
-
-        function loadPreviousPage() {
-            if (currentPage > 1) {
-                currentPage--; 
-                loadArticles(currentPage); 
-            }
         }
 
 

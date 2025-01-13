@@ -46,16 +46,13 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public async Task<IActionResult> Get(int page = 1, int pageSize = 8, int? categoryId = null)
         {
-            // Zacznij od bazowej kwerendy
             IQueryable<Article> articlesQuery = _context.Articles.Include(a => a.Category);
 
-            // Dodaj filtr kategorii, jeśli podano categoryId
             if (categoryId.HasValue)
             {
                 articlesQuery = articlesQuery.Where(a => a.CategoryId == categoryId.Value);
             }
 
-            // Zastosuj stronicowanie i projekcję
             var articles = await articlesQuery
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
