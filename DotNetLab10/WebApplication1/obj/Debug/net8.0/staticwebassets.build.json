@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6bk1RBhdOEdyLeADALoLagYv+yIf8f85oszGvr/haHQ=",
+  "Hash": "fBbK8fVTQNzR62DZQ3d5do4q1ongSIxTp7a9oDFR2ZU=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -2619,27 +2619,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\upload\\28f51e46-20e6-418f-8ded-256803fea6e8_sunflower.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
-      "SourceId": "WebApplication1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\",
-      "BasePath": "_content/WebApplication1",
-      "RelativePath": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "egac544ceq",
-      "Integrity": "7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg"
     },
     {
       "Identity": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\banan.jpg",
@@ -10070,88 +10049,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-XZU1/2NVngp5REXlJ+3Evqh7vvkCvmrOaD+zBnh/tlo="
-        }
-      ]
-    },
-    {
-      "Route": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.egac544ceq.jpg",
-      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:20:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "egac544ceq"
-        },
-        {
-          "Name": "label",
-          "Value": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
-        }
-      ]
-    },
-    {
-      "Route": "upload/53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
-      "AssetFile": "C:\\Users\\marty\\source\\repos\\DotNetLab10\\WebApplication1\\wwwroot\\upload\\53aaa1c5-23fa-4c1f-a9fd-82aef3ecc3e1_hammer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "20281"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:20:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-7rRQzBk1C0ksRK+24pvsdcHl8EC80zbxUM8blrUXF5E="
         }
       ]
     },

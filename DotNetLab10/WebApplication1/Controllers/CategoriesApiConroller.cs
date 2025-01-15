@@ -7,7 +7,7 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/categories")]
+    [Route("api/category")]
     [ApiController]
     public class CategoriesApiController : ControllerBase
     {
@@ -99,6 +99,19 @@ namespace WebApplication1.Controllers
             if (category.Name == "Other")
             {
                 return BadRequest("The 'Other' category cannot be deleted.");
+            }
+
+            var articles = await _context.Articles
+                .Where(a => a.CategoryId == id)
+                .ToListAsync();
+
+            var defaultCategory = await _context.Categories.FirstOrDefaultAsync(c => c.Name == "Other");
+            if (defaultCategory == null)
+                return BadRequest("Default category 'Other' is missing.");
+
+            foreach (var article in articles)
+            {
+                article.CategoryId = defaultCategory.Id;
             }
 
             _context.Categories.Remove(category);

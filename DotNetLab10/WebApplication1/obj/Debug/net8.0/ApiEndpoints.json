@@ -6,23 +6,7 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "page",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "categoryId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -133,6 +117,32 @@
   },
   {
     "ContainingType": "WebApplication1.Controllers.ArticleApiController",
+    "Method": "Get",
+    "RelativePath": "api/article/page/{page}/pageSize/{pageSize}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.ArticleApiController",
     "Method": "GetPrev",
     "RelativePath": "api/article/prev/{id}",
     "HttpMethod": "GET",
@@ -150,7 +160,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Get",
-    "RelativePath": "api/categories",
+    "RelativePath": "api/category",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -160,7 +170,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Post",
-    "RelativePath": "api/categories",
+    "RelativePath": "api/category",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -176,7 +186,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Get",
-    "RelativePath": "api/categories/{id}",
+    "RelativePath": "api/category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -192,7 +202,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Put",
-    "RelativePath": "api/categories/{id}",
+    "RelativePath": "api/category/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -213,7 +223,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Delete",
-    "RelativePath": "api/categories/{id}",
+    "RelativePath": "api/category/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -229,7 +239,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoriesApiController",
     "Method": "Patch",
-    "RelativePath": "api/categories/{id}",
+    "RelativePath": "api/category/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

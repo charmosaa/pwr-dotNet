@@ -21,13 +21,13 @@ namespace WebApplication1.Controllers
             _hostingEnvironment = hostingEnvironment;
         }
 
-        //// GET: api/article
-        //[HttpGet]
-        //public async Task<IActionResult> Get()
-        //{
-        //    var articles = await _context.Articles.Include(a => a.Category).ToListAsync();
-        //    return Ok(articles);
-        //}
+        // GET: api/article
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var articles = await _context.Articles.Include(a => a.Category).ToListAsync();
+            return Ok(articles);
+        }
 
         // GET: api/article/{id}
         [HttpGet("{id}")]
@@ -43,8 +43,8 @@ namespace WebApplication1.Controllers
             return Ok(article);
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get(int page = 1, int pageSize = 8, int? categoryId = null)
+        [HttpGet("page/{page:int}/pageSize/{pageSize:int}")]
+        public async Task<IActionResult> Get(int page, int pageSize, int? categoryId = null)
         {
             IQueryable<Article> articlesQuery = _context.Articles.Include(a => a.Category);
 
@@ -68,10 +68,6 @@ namespace WebApplication1.Controllers
 
             return Ok(articles);
         }
-
-
-
-
 
 
         // POST: api/article
