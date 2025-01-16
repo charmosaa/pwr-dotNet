@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Cors;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -72,6 +73,7 @@ namespace WebApplication1.Controllers
 
         // POST: api/article
         [HttpPost]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Post([FromBody] Article article)
         {
             if (!ModelState.IsValid)
@@ -87,6 +89,7 @@ namespace WebApplication1.Controllers
 
         // PUT: api/article/{id}
         [HttpPut("{id}")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Put(int id, [FromBody] Article article)
         {
             if (id != article.Id)
@@ -120,6 +123,7 @@ namespace WebApplication1.Controllers
 
         // DELETE: api/article/{id}
         [HttpDelete("{id}")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Delete(int id)
         {
             var article = await _context.Articles.FindAsync(id);
@@ -145,6 +149,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPatch("{id}")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Patch(int id, [FromBody] JsonPatchDocument<Article> patch)
         {
             var article = await _context.Articles.FindAsync(id);
@@ -161,39 +166,6 @@ namespace WebApplication1.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return Ok(article);
-        }
-
-
-        // GET: api/article/prev/{id}
-        [HttpGet("prev/{id}")]
-        public async Task<IActionResult> GetPrev(int id)
-        {
-            var article = await _context.Articles
-                .OrderByDescending(a => a.Id)
-                .FirstOrDefaultAsync(a => a.Id < id);
-
-            if (article == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(article);
-        }
-
-        // GET: api/article/next/{id}
-        [HttpGet("next/{id}")]
-        public async Task<IActionResult> GetNext(int id)
-        {
-            var article = await _context.Articles
-                .OrderBy(a => a.Id)
-                .FirstOrDefaultAsync(a => a.Id > id);
-
-            if (article == null)
-            {
-                return NotFound();
-            }
-
             return Ok(article);
         }
     }

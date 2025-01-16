@@ -41,7 +41,7 @@ namespace WebApplication1.Controllers
 
         // POST: api/categories
         [HttpPost]
-      //  [Authorize(Policy = "RequireRoleForEditing")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Post([FromBody] Category category)
         {
             if (!ModelState.IsValid)
@@ -56,7 +56,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPut("{id}")]
-        //[Authorize(Policy = "RequireRoleForEditing")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Put(int id, [FromBody] Category category)
         {
             if (id != category.Id)
@@ -87,7 +87,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpDelete("{id}")]
-        //[Authorize(Policy = "RequireRoleForEditing")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Delete(int id)
         {
             var category = await _context.Categories.FindAsync(id);
@@ -121,7 +121,7 @@ namespace WebApplication1.Controllers
         }
 
         [HttpPatch("{id}")]
-       // [Authorize(Policy = "RequireRoleForEditing")]
+        [Authorize(Policy = "RequireRoleForEditing")]
         public async Task<IActionResult> Patch(int id, [FromBody] JsonPatchDocument<Category> patch)
         {
             var category = await _context.Categories.FindAsync(id);

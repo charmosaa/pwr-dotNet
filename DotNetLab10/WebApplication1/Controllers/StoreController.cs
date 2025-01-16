@@ -53,7 +53,7 @@ public class StoreController : Controller
 
     public IActionResult Cart()
     {
-        var cartItems = new List<(WebApplication1.Models.Article Article, int Quantity)>();
+        var cartItems = new List<(Article Article, int Quantity)>();
 
         foreach (var cookie in Request.Cookies)
         {
@@ -120,7 +120,7 @@ public class StoreController : Controller
     [Authorize]
     public IActionResult Order()
     {
-        var cartItems = new List<(WebApplication1.Models.Article Article, int Quantity)>();
+        var cartItems = new List<(Article Article, int Quantity)>();
         decimal totalCost = 0;
 
         foreach (var cookie in Request.Cookies)
