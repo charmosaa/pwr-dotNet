@@ -1,0 +1,52 @@
+<div class="container mt-4">
+    <h2>Articles</h2>
+  
+    <!-- Lista artykułów -->
+    <ul class="list-group mb-3">
+      <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let article of articles()">
+        {{ article.name }} ({{ article.category }})
+        <button class="btn btn-danger btn-sm" (click)="removeArticle(article.id)">Remove</button>
+      </li>
+    </ul>
+  
+    <!-- Formularz dodawania artykułu
+    <h3>Add Article</h3>
+    <form (ngSubmit)="addArticle()">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          [(ngModel)]="newArticle.name"
+          name="name"
+          class="form-control"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="category">Category:</label>
+        <select
+          id="category"
+          [(ngModel)]="newArticle.category"
+          name="category"
+          class="form-control"
+          required
+        >
+          <option *ngFor="let category of categories()" [value]="category">{{ category }}</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="price">Price:</label>
+        <input
+          type="number"
+          id="price"
+          [(ngModel)]="newArticle.price"
+          name="price"
+          class="form-control"
+          required
+        />
+      </div>
+      <button type="submit" class="btn btn-primary mt-2">Add Article</button>
+    </form> -->
+  </div>
+  
