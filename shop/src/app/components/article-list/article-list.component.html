@@ -6,11 +6,12 @@
     <!-- Grid Layout for Articles -->
     <div class="grid-container">
     <div class="grid-item" *ngFor="let article of articles()">
-        <img [src]="'assets/articles/' + (article.imagePath || 'default.png')" alt="{{ article.name }}" class="img-thumbnail" style="width: 100px; height: 100px;" />
-        <h2>{{ article.name }}</h2>
-        <p>Category: {{ article.category }}</p>
-        <p>Price: {{ article.price }}zł</p>
-        <button class="btn btn-danger btn-sm" (click)="deleteArticle(article.id)">Delete</button>
+        <button class="article-button">
+            <img class="article-image" [src]="'assets/articles/' + (article.imagePath || 'default.png')" alt="{{ article.name }}"/>
+            <h2>{{ article.name }}</h2>
+            <p>Category: {{ article.category }}</p>
+            <!--<button class="button" (click)="deleteArticle(article.id)">Delete</button>-->
+        </button>
     </div>
     </div>
 
