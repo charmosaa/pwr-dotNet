@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #faee12; 
+    padding: 10px;
+    border-radius: 5px;
+}

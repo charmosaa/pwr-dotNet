@@ -1,46 +1,34 @@
 import { Component, inject, signal } from '@angular/core';
-import { Article, ArticleService } from '../../services/article.service';
-import { Category } from '../../models/category.model';
+import { ArticleService } from '../../services/article.service';
+import { Article } from '../../models/article.model';
+import { ArticleFormComponent } from '../article-form/article-form.component';
 import { NgFor } from '@angular/common';
+import { Category } from '../../models/category.model';
 
 @Component({
   selector: 'app-article-list',
-  imports: [NgFor],
   templateUrl: './article-list.component.html',
-  styleUrl: './article-list.component.css'
+  styleUrls: ['./article-list.component.css'],
+  imports: [NgFor, ArticleFormComponent],
 })
-
-
 export class ArticlesComponent {
   private articleService = inject(ArticleService);
-  articles = signal<Article[]>([]); // Reactive signal dla listy artykułów
-  categories = signal<Category[]>([]); // Reactive signal dla kategorii
-  newArticle: Partial<Article> = {};
+  articles = signal<Article[]>([]);
+  categories = signal<Category[]>([]);
 
   constructor() {}
 
   ngOnInit(): void {
     this.articles.set(this.articleService.getArticles());
-    this.categories.set(this.articleService.getCategories());
   }
 
-  addArticle(): void {
-    if (this.newArticle.name && this.newArticle.category && this.newArticle.price) {
-      const id = Math.max(0, ...this.articles().map((a) => a.id)) + 1;
-      const article: Article = { ...this.newArticle, id } as Article;
-
-      this.articleService.addArticle(article);
-
-      // Aktualizacja sygnału
-      this.articles.set(this.articleService.getArticles());
-      this.newArticle = {};
-    }
+  handleAddArticle(article: Article): void {
+    this.articleService.addArticle(article);
+    this.articles.set(this.articleService.getArticles());
   }
 
-  removeArticle(id: number): void {
+  deleteArticle(id: number): void {
     this.articleService.removeArticle(id);
-
-    // Aktualizacja sygnału
     this.articles.set(this.articleService.getArticles());
   }
 }
