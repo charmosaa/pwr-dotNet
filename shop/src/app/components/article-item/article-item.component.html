@@ -1,0 +1,10 @@
+<button class="article-button" (click)=onSelect()>
+    <img
+      class="article-image"
+      [src]= imagePath
+      alt="{{ article().name }}"
+    />
+    <h2>{{ article().name }}</h2>
+    <p>Category: {{ article().category }}</p>
+  </button>
+  

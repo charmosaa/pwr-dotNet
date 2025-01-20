@@ -16,12 +16,6 @@ export class ArticleFormComponent {
   newArticle: Partial<Article> = {};
   categories: Category[] = CATEGORIES_LIST;  
 
-  
-  ngOnInit(): void {
-    // Log categories to see if they are populated
-    console.log('Categories:', this.categories);
-  }
-
   addArticle(): void {
     if (this.newArticle.name && this.newArticle.category && this.newArticle.price) {
       const article: Article = { ...this.newArticle, id: Date.now() } as Article;

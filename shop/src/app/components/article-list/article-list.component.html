@@ -1,19 +1,22 @@
-<div class="container mt-4">
-    <!-- Include the form component -->
+@if (isArticleModifyOpen) {
+    <app-article-details 
+    [article]="currentArticle!"
+    (cancel)="onArticleModifyCancel()"
+    (save)="onArticleModifySave($event)"
+    ></app-article-details>
+}
+
+
+<div>
     <app-article-form (addArticleEvent)="handleAddArticle($event)"></app-article-form>
-
+  
     <h2>Articles</h2>
-    <!-- Grid Layout for Articles -->
     <div class="grid-container">
-    <div class="grid-item" *ngFor="let article of articles()">
-        <button class="article-button">
-            <img class="article-image" [src]="'assets/articles/' + (article.imagePath || 'default.png')" alt="{{ article.name }}"/>
-            <h2>{{ article.name }}</h2>
-            <p>Category: {{ article.category }}</p>
-            <!--<button class="button" (click)="deleteArticle(article.id)">Delete</button>-->
-        </button>
+        @for (article of articles(); track article.id){
+        <app-article-item
+            [article]="article" (selectedId) = onSelect($event)>
+        </app-article-item>
+    }
     </div>
-    </div>
-
 </div>
   

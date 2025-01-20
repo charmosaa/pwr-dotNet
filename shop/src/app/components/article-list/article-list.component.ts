@@ -1,20 +1,21 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, OnInit, inject, signal } from '@angular/core';
 import { ArticleService } from '../../services/article.service';
 import { Article } from '../../models/article.model';
 import { ArticleFormComponent } from '../article-form/article-form.component';
-import { NgFor } from '@angular/common';
-import { Category } from '../../models/category.model';
+import { ArticleItemComponent } from '../article-item/article-item.component';
+import { ArticleDetailsComponent } from '../article-details/article-details.component';
 
 @Component({
   selector: 'app-article-list',
   templateUrl: './article-list.component.html',
   styleUrls: ['./article-list.component.css'],
-  imports: [NgFor, ArticleFormComponent],
+  imports: [ArticleFormComponent, ArticleItemComponent,ArticleDetailsComponent],
 })
-export class ArticlesComponent {
+export class ArticleListComponent implements OnInit {
   private articleService = inject(ArticleService);
   articles = signal<Article[]>([]);
-  categories = signal<Category[]>([]);
+  isArticleModifyOpen = false;
+  currentArticle?: Article;
 
   constructor() {}
 
@@ -27,8 +28,21 @@ export class ArticlesComponent {
     this.articles.set(this.articleService.getArticles());
   }
 
-  deleteArticle(id: number): void {
-    this.articleService.removeArticle(id);
-    this.articles.set(this.articleService.getArticles());
+  onSelect(id: number){
+    this.currentArticle = this.articleService.getArticle(id);
+    this.isArticleModifyOpen = true;
   }
+
+  onArticleModifyCancel(){
+    this.isArticleModifyOpen = false;
+  }
+
+  onArticleModifyStart(){
+    this.isArticleModifyOpen = true;
+  }
+
+  onArticleModifySave(modifyDate: {name: string, category: string, price: number}){
+    console.log('Article modified:', modifyDate);
+  }
+
 }

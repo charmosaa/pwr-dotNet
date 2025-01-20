@@ -30,6 +30,10 @@ export class ArticleService {
     return this.articles;
   }
 
+  getArticle(id: number): Article | undefined {
+    return this.articles.find(article => article.id === id);
+  }
+
   addArticle(article: Article): void {
     this.articles.push(article);
   }
