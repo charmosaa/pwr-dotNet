@@ -8,9 +8,15 @@
     z-index: 1;
 }
 
+dialog{
+    background: rgb(255, 250, 161);
+    position: fixed;
+    margin-top: 20px;
+}
+
 .article-image {
     max-width: 300px;
-    max-height: 350px;
+    max-height: 300px;
     object-fit: fill;
     border-radius: 5px;
 }
@@ -30,8 +36,8 @@ input,select {
     border-radius: 3px;
 }
 
-.button-cancel{
-    background-color: hsl(51, 84%, 83%);
+.button-normal{
+    background-color: hsl(51, 100%, 89%);
     color: #000000;
     padding: 10px 20px;
     text-align: center;
@@ -41,15 +47,20 @@ input,select {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 5px;
+    margin-left: 5px;
 }
 
-.button-cancel:hover {
+.button-normal:hover {
     background-color: hsl(51, 84%, 73%);
 }
 
 .button-container{
     display: flex;
     justify-content: center;
+}
+
+button{
+    border: black 2px solid;
 }
 
 

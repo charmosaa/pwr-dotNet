@@ -1,11 +1,12 @@
 import { Component, input, output, signal, OnInit, computed} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Article } from '../../models/article.model';
-import { Category } from '../../models/category.model';
+import { CATEGORIES_LIST, Category } from '../../models/category.model';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-article-details',
-  imports: [FormsModule],
+  imports: [FormsModule, NgFor],
   templateUrl: './article-details.component.html',
   styleUrl: './article-details.component.css'
 })
@@ -13,6 +14,8 @@ export class ArticleDetailsComponent implements OnInit {
   article=input.required<Article>();
   cancel=output<void>();
   save=output<{name:string, category:Category, price:number}>();
+  remove=output<void>();
+  categories: Category[] = CATEGORIES_LIST;
 
   enteredName = signal("");
   enteredCategory: Category = "Other";
@@ -30,6 +33,10 @@ export class ArticleDetailsComponent implements OnInit {
 
   onSubmit(): void {
     this.save.emit({name: this.enteredName(), category: this.enteredCategory, price: this.enteredPrice()});
+  }
+
+  onRemove(): void {
+    this.remove.emit();
   }
 
   imagePath = computed(() => {

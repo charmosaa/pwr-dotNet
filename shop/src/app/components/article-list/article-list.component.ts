@@ -4,6 +4,7 @@ import { Article } from '../../models/article.model';
 import { ArticleFormComponent } from '../article-form/article-form.component';
 import { ArticleItemComponent } from '../article-item/article-item.component';
 import { ArticleDetailsComponent } from '../article-details/article-details.component';
+import { Category } from '../../models/category.model';
 
 @Component({
   selector: 'app-article-list',
@@ -29,6 +30,7 @@ export class ArticleListComponent implements OnInit {
   }
 
   onSelect(id: number){
+    this.isArticleModifyOpen = false;
     this.currentArticle = this.articleService.getArticle(id);
     this.isArticleModifyOpen = true;
   }
@@ -41,8 +43,18 @@ export class ArticleListComponent implements OnInit {
     this.isArticleModifyOpen = true;
   }
 
-  onArticleModifySave(modifyDate: {name: string, category: string, price: number}){
-    console.log('Article modified:', modifyDate);
+  onArticleModifyRemove(){
+    this.articleService.removeArticle(this.currentArticle!.id);
+    this.articles.set(this.articleService.getArticles());
+    this.currentArticle = undefined;
+    this.isArticleModifyOpen = false;
+  }
+
+  onArticleModifySave(modifyDate: {name: string, category: Category, price: number}){
+    this.currentArticle!.name = modifyDate.name;
+    this.currentArticle!.category = modifyDate.category;
+    this.currentArticle!.price = modifyDate.price;
+    this.isArticleModifyOpen = false;
   }
 
 }
